@@ -7,42 +7,6 @@
 
 class BinaryTest {
 
-    public function BitwiseAnd() {
-        $a = 1 & 2;
-        return $a;
-    }
-
-    public function BitwiseOr() {
-        return 1 | 2;
-    }
-
-    public function BitwiseXor() {
-        return 0b11 ^ 0b10;
-    }
-
-    public function BooleanAnd() {
-        $a = true;
-        $b = false;
-        return $a && $b;
-    }
-
-    public function BooleanOr() {
-        $a = true;
-        $b = false;
-        return $a || $b;
-    }
-
-    public function Coalesce() {
-        $a = true;
-        return $a ?? 3;
-    }
-
-    public function Concat() {
-        $a = "A";
-        $b = "B";
-        return $a . $b;
-    }
-
     public function Div() {
         $a = 4;
         $b = 2;
@@ -100,7 +64,7 @@ class BinaryTest {
     }
 
     public function NotIdentical() {
-        return 1 !== (2 - 1);
+        return 1 !== 1;
     }
 
     public function Plus() {
